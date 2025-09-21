@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav
+        class="max-w-[1440px] container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <!-- logo -->
+        <div class="text-2xl font-bold flex items-center gap-2">
+          <img class="h-8" src="./images/logo.png" alt="logo" />
+          <span class="text-primary">LaslesVPN</span>
+        </div>
+
+        <!-- navigation item -->
+        <ul class="hidden md:flex space-x-8">
+          <li>
+            <a href="#about" class="text-gray-600 hover:text-primary">About</a>
+          </li>
+          <li>
+            <a href="#features" class="text-gray-600 hover:text-primary"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a href="#pricing" class="text-gray-600 hover:text-primary"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a href="#testimonials" class="text-gray-600 hover:text-primary"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#help" class="text-gray-600 hover:text-primary">Help</a>
+          </li>
+        </ul>
+
+        <!-- autho buttons -->
+        <div class="space-x-4">
+          <button
+            class="text-gray-600 hover:text-primary hidden sm:inline-flex"
+          >
+            Sign In
+          </button>
+          <button
+            class="bg-primary text-white hover:bg-red-600 px-4 py-2 rounded-full cursor-pointer"
+          >
+            Sign In
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero section -->
+    <section
+      class="max-w-[1440px] container mx-auto px-4 py-28 flex flex-col md:flex-row items-center gap-12"
+    >
+      <!-- left content -->
+      <div class="md:w-1/2 mb-8 md:mb-0 space-y-8">
+        <h1
+          class="lg:text-6xl md:text-5xl text-4xl font-bold text-heading-text leading-tight"
+        >
+          Want anything to be <br class="lg:block hidden" />
+          easy with LaslesVPN
+        </h1>
+        <p class="text-primary-text text-lg leading-relaxed max-w-xl">
+          Provide a network for all your needs with ease and fun using LaslesVPN
+          discover interesting feaatures from us.
+        </p>
+        <button
+          class="bg-primary text-white px-12 py-4 rounded-lg hover:bg-red-600 shadow-lg hover:shadow-xl trasition duration-300 text-lg font-medium cursor-pointer"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <!-- right content -->
+      <div class="md:w-1/2">
+        <img src="./images/banner.png" alt="banner" class="w-full" />
+      </div>
+    </section>
+
+    <!-- statistics section -->
+    <section class="section-container">
+      <div class="bg-white rounded-xl shadow-lg p-8">
+        <div
+          class="flex flex-col md:flex-row justify-around items-center divide-y md:divide-y-0 md:divide-x divide-gray-200"
+        >
+          <!-- user stats -->
+          <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full shrink-0">
+              <img src="./images/user.png" class="h-8" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">90+</h3>
+              <p class="text-primary-text">Users</p>
+            </div>
+          </div>
+
+          <!-- location stats -->
+          <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full shrink-0">
+              <img src="./images/location.png" class="h-8" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">30+</h3>
+              <p class="text-primary-text">Locations</p>
+            </div>
+          </div>
+
+          <!-- server stats -->
+          <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full shrink-0">
+              <img src="./images/storage.png" class="h-8" />
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">50+</h3>
+              <p class="text-primary-text">Servers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+    <section class="section-container">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center gap-12"
+      >
+        <!-- left content -->
+        <div class="md:w-1/2">
+          <img src="./images/features.png" alt="feature img" />
+        </div>
+
+        <!-- right content -->
+        <div class="md:w-1/2 space-y-8">
+          <h2 class="text-heading-text text-4xl font-bold leading-tight">
+            We Provide Many <br />
+            Features You Can Use
+          </h2>
+          <p class="text-primary-text leaading-relaxed md:w-2/3">
+            You can expore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+
+          <!-- features list -->
+          <ul class="space-y-4">
+            <li class="flex items-center gap-3">
+              <div>
+                <img src="./images/group.png" alt="group icon" class="" />
+              </div>
+              <span>Powerful online protection.</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div>
+                <img src="./images/group.png" alt="group icon" class="" />
+              </div>
+              <span>Internet without borders.</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div>
+                <img src="./images/group.png" alt="group icon" class="" />
+              </div>
+              <span>Supercharged VPN.</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div>
+                <img src="./images/group.png" alt="group icon" class="" />
+              </div>
+              <span>No specific time limits.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="bg-gray-50">
+      <div class="section-container">
+        <!-- section header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-heading-text mb-4">
+            Choose Your Plan
+          </h2>
+          <p class="text-primary-text">
+            Let's choose the package that is best for you and explore it happily
+            and cheerfully.
+          </p>
+        </div>
+
+        <!-- pricing cards container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-8">
+          <!-- free plan -->
+          <div
+            class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-center hover:border-red-500 transition transition duration-300 hover:scale-110"
+          >
+            <img class="w-32 mb-8" src="./images/box.png" alt="gift-box-img" />
+            <h3 class="text-2xl font-bold mb-8">Free Plan</h3>
+
+            <!-- feature list -->
+            <ul class="space-y-4 mb-8 flex-grow">
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Encrypted Connection</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>No Traffic Logs</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Works on All Devices</span>
+              </li>
+            </ul>
+
+            <!-- price button -->
+            <div class="text-center space-y-4">
+              <div>Free</div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+
+          <!-- standard plan -->
+          <div
+            class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-center hover:border-red-500 transition transition duration-300 hover:scale-110"
+          >
+            <img class="w-32 mb-8" src="./images/box.png" alt="gift-box-img" />
+            <h3 class="text-2xl font-bold mb-8">Standard Plan</h3>
+
+            <!-- feature list -->
+            <ul class="space-y-4 mb-8 flex-grow">
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Encrypted Connection</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>No Traffic Logs</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Works on All Devices</span>
+              </li>
+            </ul>
+
+            <!-- price button -->
+            <div class="text-center space-y-4">
+              <div>Free</div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+
+          <!-- premium plan -->
+          <div
+            class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-center hover:border-red-500 transition transition duration-300 hover:scale-110"
+          >
+            <img class="w-32 mb-8" src="./images/box.png" alt="gift-box-img" />
+            <h3 class="text-2xl font-bold mb-8">Premium Plan</h3>
+
+            <!-- feature list -->
+            <ul class="space-y-4 mb-8 flex-grow">
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Unlimited Bandwidth</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Encrypted Connection</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>No Traffic Logs</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <img class="size-5" src="./images/check.png" alt="check-img" />
+                <span>Works on All Devices</span>
+              </li>
+            </ul>
+
+            <!-- price button -->
+            <div class="text-center space-y-4">
+              <div>Free</div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
